@@ -1,6 +1,6 @@
 ---
 title: "Lab 03 - Nobel laureates"
-author: Liz, Rolan, Alfred, Renee, Bale, Jack
+author: Bale, Rolan, Alfred, Jack, Renee, Liz
 output: 
   tufte::tufte_html:
     tufte_variant: "envisioned"
@@ -8,7 +8,7 @@ output:
 link-citations: yes
 ---
 
-```{reading-nobel-data, include=FALSE}
+```{load-data , include=FALSE}
 knitr::opts_chunk$set(eval = TRUE)
 ```
 

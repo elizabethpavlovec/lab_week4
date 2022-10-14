@@ -1,5 +1,6 @@
 ---
 title: "Lab 03 - Nobel laureates"
+author: Rolan, Liz, Alfred, Renee, Jack, Bale
 output: 
   tufte::tufte_html:
     tufte_variant: "envisioned"

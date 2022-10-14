@@ -263,6 +263,17 @@ This means you will need to define this data frame in your R Markdown document, 
 
 3.  Create a faceted bar plot visualizing the relationship between the category of prize and whether the laureate was in the US when they won the Nobel Prize.
     Interpret your visualization, and say a few words about whether the BuzzFeed News headline is supported by the data.
+    
+```{r}
+nobel_living_science %>%
+  mutate(
+    country_us = if_else (country == "USA", "USA","Other")
+  ) %>%
+  ggplot(data = nobel_living_science,
+        mapping = aes (x=category, y=country_us))+
+        facet_grid(~category)
+        geom_bar()
+```
 
     -   Your visualization should be faceted by category.
     -   For each facet you should have two bars, one for winners in the US and one for Other.

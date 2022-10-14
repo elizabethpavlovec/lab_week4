@@ -203,6 +203,7 @@ Take turns answering the exercises.
 ## Get to know your data
 
 1.  How many observations and how many variables are in the dataset? Use inline code to answer this question. What does each row represent?
+_There are 935 observation and 26 variables within the data set. Each row represents the people who achieved a Nobel prize._
 
 There are some observations in this dataset that we will exclude from our analysis to match the BuzzFeed News results.
 

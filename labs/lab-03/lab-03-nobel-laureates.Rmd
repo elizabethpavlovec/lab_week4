@@ -223,6 +223,7 @@ nobel_living <- nobel %>%
 ```
 
 Confirm that once you have filtered for these characteristics you are left with a data frame with `r nrow(nobel_living)` observations, once again using inline code.
+_There are 228 observation and 27 variables within the data set._ 
 
 🧶 ✅ ⬆️ Knit, *commit, and push your changes to GitHub with an appropriate commit message. Make sure to commit and push all changed files so that your Git pane is cleared up afterwards.*
 

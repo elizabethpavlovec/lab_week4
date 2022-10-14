@@ -8,7 +8,7 @@ output:
 link-citations: yes
 ---
 
-```{r setup, include=FALSE}
+```{load-data , include=FALSE}
 knitr::opts_chunk$set(eval = TRUE)
 ```
 
